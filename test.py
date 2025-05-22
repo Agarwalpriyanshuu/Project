@@ -1,7 +1,6 @@
-
-
+#ask user 5 time to take input and store it in list and print the list
 L1=[]
-for i in range(10):
+for i in range(5):
     num=int(input("enter a number"))
     L1.append(num)
 print(L1)
