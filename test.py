@@ -1,7 +1,7 @@
 
 
 L1=[]
-for i in range(5):
+for i in range(10):
     num=int(input("enter a number"))
     L1.append(num)
 print(L1)
