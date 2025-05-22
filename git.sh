@@ -6,7 +6,7 @@ sudo apt install git -y
 mkdir project
 cd project
 touch index.html
-echo 'FROM nginx\COPY * /usr/share/nginx/html/' > Dokcerfile
+echo -e 'FROM nginx\COPY * /usr/share/nginx/html/' > Dokcerfile
 git init
 git config --global user.name "user_name"
 git config --global user.email "email_id"
