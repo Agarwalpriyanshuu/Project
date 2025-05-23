@@ -12,9 +12,9 @@ def client():
             db.create_all()
             # Setup test products
             products = [
-                Product(name="Test Product A", price=10.00, image_url="/static/images/a.jpg"),
-                Product(name="Test Product B", price=15.50, image_url="/static/images/b.jpg"),
-                Product(name="Test Product C", price=7.25, image_url="/static/images/c.jpg"),
+                Product(name="Test Product A", price=10.00),
+                Product(name="Test Product B", price=15.50),
+                Product(name="Test Product C", price=7.25),
             ]
             db.session.add_all(products)
             db.session.commit()
